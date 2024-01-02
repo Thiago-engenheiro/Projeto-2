@@ -1,0 +1,161 @@
+/*
+
+    Criador: Thiago Abraao
+    Data inicial: 02/01/2024
+    Data final: indefindo
+    Objetivo: modelo para novos projetos 
+
+*/
+
+/* fontes */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+/* Variaveis globais */
+:root {
+
+    /* estilização */
+    
+    --cor-primaria :   #00030C;
+    --cor-secundaria :   #167BF7;
+    --cor-terceiaria :    #FFFFFF;
+
+    --cor-primaria-fonte : #F9F9F9;
+    --cor-secundaria-fonte :  #FFFFFF;
+
+    --fonte-principal:  'Inter', sans-serif;
+    
+}
+
+/* pagina toda */
+* {
+
+    /* estilização */
+    
+    text-decoration: none;
+    color: var(--cor-primaria-fonte) ;
+
+    /* Posicionamento */
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.todo-conteudo {
+
+    background-color: var(--cor-primaria);
+    box-sizing: border-box;
+
+}    
+
+/* conteudo cabecalho da pagina */
+/* _______________________________________________________________________________________ */
+
+.cabecalho-inteiro {
+
+    /* Posicionamento */
+
+    display: flex;
+    padding: 0% 15% 0% 0%;
+    
+}     
+
+.cabecalho {
+
+    /* Posicionamento */
+
+    padding: 5% 0% 0% 5%;
+    display: flex;
+    flex-direction: column;
+
+}      
+
+.cabecalho-titulo{
+
+    /* estilização */
+    
+    font-family: var(--fonte-principal);
+    font-size: 1,75rem;
+    font-weight: 700;
+    color: var(--cor-primaria-fonte);
+
+} 
+
+.cabecalho-botoes{
+
+
+    /* Posicionamento */
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}     
+
+.cabecalho-botoes-link-01 {
+
+    /* estilização */
+    
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--cor-secundaria-fonte);
+    background-color: var(--cor-secundaria);
+    border-radius: 8px;
+    
+
+    
+
+
+    /* Posicionamento */
+    
+    padding-top: 28px;
+    padding-bottom: 28px;
+    padding-left: 16rem;
+    padding-right: 16rem; 
+    text-align: center;
+
+} 
+
+.cabecalho-botoes-link-02 {
+
+    /* estilização */
+    
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--cor-secundaria-fonte);
+    border: 1px solid var(--cor-terceiaria);
+    border-radius: 8px;
+    
+    
+
+    /* Posicionamento */
+    
+    padding-top: 28px;
+    padding-bottom: 28px;
+    padding-left: 16rem;
+    padding-right: 16rem; 
+    text-align: center;
+
+
+} 
+
+
+
+/* conteudo central da pagina */
+/* _______________________________________________________________________________________ */
+
+/*sem conteudo ainda*/
+
+/* conteudo rodape da pagina */
+/* _______________________________________________________________________________________ */
+
+/*sem conteudo ainda*/
+
+/* resposividade para celular */
+/* _______________________________________________________________________________________ */
+
+/*sem conteudo ainda*/
