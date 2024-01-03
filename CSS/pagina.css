@@ -23,6 +23,7 @@
 
     --cor-primaria-fonte : #F9F9F9;
     --cor-secundaria-fonte :  #FFFFFF;
+    --cor-terciaria-fonte :  #C0C0C0;
 
     --fonte-principal:  'Inter', sans-serif;
     
@@ -46,102 +47,115 @@
 .todo-conteudo {
 
     background-color: var(--cor-primaria);
-    box-sizing: border-box;
-
+    
 }    
 
 /* conteudo cabecalho da pagina */
 /* _______________________________________________________________________________________ */
 
+
 .cabecalho-inteiro {
+
+    /* estilização */
+
+    background-image: url("../Imagens/Background.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
 
     /* Posicionamento */
 
-    display: flex;
-    padding: 0% 15% 0% 0%;
-    
+    height: 100vh;
+
 }     
+
 
 .cabecalho {
 
     /* Posicionamento */
-
-    padding: 5% 0% 0% 5%;
+   
     display: flex;
     flex-direction: column;
+    align-items: center;
 
-}      
-
-.cabecalho-titulo{
-
-    /* estilização */
-    
-    font-family: var(--fonte-principal);
-    font-size: 1,75rem;
-    font-weight: 700;
-    color: var(--cor-primaria-fonte);
+    padding: 9.5% 57.5% 0% 13.5%;
+    gap: 68px;
 
 } 
 
-.cabecalho-botoes{
+.cabecalho-titulo {
 
+    /* estilização */
+
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    font-size: 1.75rem;
+    color: var(--cor-primaria-fonte);
+    text-align: center;
+
+}    
+
+.cabecalho-botoes {
 
     /* Posicionamento */
 
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 16px;
 
-}     
+}    
 
 .cabecalho-botoes-link-01 {
 
-    /* estilização */
-    
     font-family: var(--fonte-principal);
-    font-size: 1rem;
     font-weight: 400;
-    color: var(--cor-secundaria-fonte);
+    font-size: 1rem;
+    color: var(--cor-primaria-fonte);
+    text-align: center;
+    width: 100%;
+
     background-color: var(--cor-secundaria);
     border-radius: 8px;
-    
-
-    
-
 
     /* Posicionamento */
-    
-    padding-top: 28px;
-    padding-bottom: 28px;
-    padding-left: 16rem;
-    padding-right: 16rem; 
-    text-align: center;
 
-} 
+    padding:  5% 20% 5% 20%;
+    
+
+}    
 
 .cabecalho-botoes-link-02 {
 
     /* estilização */
-    
+
     font-family: var(--fonte-principal);
-    font-size: 1rem;
     font-weight: 400;
-    color: var(--cor-secundaria-fonte);
-    border: 1px solid var(--cor-terceiaria);
+    font-size: 1rem;
+    color: var(--cor-primaria-fonte);
+    text-align: center;
+    width: 100%;
+
+    border: 1px solid var(--cor-primaria-fonte);
     border-radius: 8px;
-    
-    
 
     /* Posicionamento */
+
+    padding:  5% 20% 5% 20%;
+
+}  
+
+.cabecalho-botoes-texto {
+
+    /* estilização */
     
-    padding-top: 28px;
-    padding-bottom: 28px;
-    padding-left: 16rem;
-    padding-right: 16rem; 
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 0.75rem;
+    color: var(--cor-terciaria-fonte);
     text-align: center;
 
+}     
 
-} 
 
 
 
