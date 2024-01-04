@@ -41,18 +41,23 @@
 
     margin: 0;
     padding: 0;
+    border: 0;
+
 
 }
 
 .todo-conteudo {
 
     background-color: var(--cor-primaria);
+
+    /* Posicionamento */
+
+    box-sizing: border-box;
     
 }    
 
 /* conteudo cabecalho da pagina */
 /* _______________________________________________________________________________________ */
-
 
 .cabecalho-inteiro {
 
@@ -67,7 +72,6 @@
     height: 100vh;
 
 }     
-
 
 .cabecalho {
 
@@ -91,6 +95,14 @@
     font-size: 1.75rem;
     color: var(--cor-primaria-fonte);
     text-align: center;
+
+}
+
+.cabecalho-combo {
+
+    /* Posicionamento */
+
+    width: 75%;
 
 }    
 
@@ -154,18 +166,333 @@
     color: var(--cor-terciaria-fonte);
     text-align: center;
 
-}     
-
-
-
+}
 
 /* conteudo central da pagina */
 /* _______________________________________________________________________________________ */
 
-/*sem conteudo ainda*/
+.principal-primeira-secao {
+    
+    /* Posicionamento */
+    
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 0% 20% 0% 23%;
+    gap: 60px;
+    
+
+}
+
+.principal-primeira-texto {
+
+    /* Posicionamento */
+
+    display: flex;
+    flex-direction: column;
+    
+}    
+
+.principal-primeira-secao-titulo {
+
+    /* estilização */
+
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    font-size: 3rem;
+    color: var(--cor-primaria-fonte);
+    text-align: justify;
+
+}
+
+.principal-primeira-secao-texto {
+
+    /* estilização */
+
+    font-family: var(--cor-secundaria-fonte);
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--cor-primaria-fonte);
+    opacity: 0.8;
+    line-height: 120%;
+    text-align: justify;
+
+}
+
+.principal-primeira-secao-foto {
+
+    /* Posicionamento */
+
+    width: 75%;
+
+}    
+
+.principal-segunda-secao {
+
+    /* Posicionamento */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 10% 20% 0% 23%;
+    gap: 60px;
+
+}    
+
+.principal-segunda-texto {
+
+    /* Posicionamento */
+    
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+        
+}
+
+.principal-segunda-secao-texto {
+
+    /* estilização */
+
+    font-family: var(--cor-secundaria-fonte);
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--cor-primaria-fonte);
+    opacity: 0.8;
+    line-height: 120%;
+    text-align: justify;
+
+}
+
+.principal-segunda-secao-botao {
+
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--cor-primaria-fonte);
+    text-align: center;
+    width: 30%;
+
+    background-color: var(--cor-secundaria);
+    border-radius: 8px;
+
+    /* Posicionamento */
+
+    padding:  2.5% 1.6% 2.5% 1.6%;
+
+}
+
+.principal-segunda-secao-foto {
+
+    /* Posicionamento */
+
+    width: 75%;
+
+}
+
+.principal-terceira-secao {
+    
+    /* Posicionamento */
+    
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 10% 20% 0% 23%;
+    gap: 60px;
+    
+}
+
+.principal-terceira-textos {
+
+    /* Posicionamento */
+
+    display: flex;
+    flex-direction: column;
+    
+}    
+
+.principal-terceira-secao-titulo {
+
+    /* estilização */
+
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    font-size: 3rem;
+    color: var(--cor-primaria-fonte);
+    text-align: justify;
+
+}
+
+.principal-terceira-secao-texto {
+
+    /* estilização */
+
+    font-family: var(--cor-secundaria-fonte);
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--cor-primaria-fonte);
+    opacity: 0.8;
+    line-height: 120%;
+    text-align: justify;
+
+}
+
+.principal-terceira-secao-foto {
+
+    /* Posicionamento */
+
+    width: 75%;
+
+}
+
+.principal-final-secao-todo {
+
+    /* Posicionamento */
+
+    padding: 15% 0% 0% 0%;
+
+}    
+
+.principal-final-secao-titulo {
+
+    /* estilização */
+
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    font-size: 3rem;
+    color: var(--cor-primaria-fonte);
+    text-align: center;
+
+}
+
+.principal-final-secao {
+
+    /* Posicionamento */
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 5% 18% 0% 18%;
+
+
+}
+
+.principal-final-secao-divisao-foto {
+
+    /* Posicionamento */
+
+    width: 100%;
+
+} 
+
+.principal-final-secao-divisao-titulo {
+
+
+    /* estilização */
+
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--cor-primaria-fonte);
+    text-align: center;
+
+
+
+}    
 
 /* conteudo rodape da pagina */
 /* _______________________________________________________________________________________ */
+
+.rodape {
+
+    /* Posicionamento */
+        
+    padding: 8% 0% 0% 0%;
+    
+}
+
+.rodape-logo {
+
+    /* Posicionamento */
+
+    width: 5%;
+
+    padding: 0% 50% 3% 47%;
+
+}
+
+.rodape-menu {
+
+    /* Posicionamento */
+
+    display: flex;
+    justify-content: space-between;
+
+    padding: 0% 16.5% 2% 16.5%;
+
+}    
+
+.rodape-menu-link {
+
+    /* estilização */
+
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--cor-primaria-fonte);
+    text-align: center;
+
+} 
+
+.rodape-paragrafo {
+
+    /* Posicionamento */
+
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    padding: 0% 16.5% 2% 16.5%;
+    gap: 20px;
+    
+
+}  
+
+.rodape-paragrafo-texto {
+
+    /* estilização */
+
+    font-family: var(--cor-secundaria-fonte);
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: var(--cor-primaria-fonte);
+    opacity: 0.8;
+    line-height: 120%;
+    text-align: center;
+
+}   
+
+.rodape-paragrafo-final {
+
+    /* estilização */
+
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--cor-primaria-fonte);
+    text-align: center;
+    background-color: #167BF7;
+
+    /* Posicionamento */
+    
+    padding: 1%;
+
+}      
 
 /*sem conteudo ainda*/
 
