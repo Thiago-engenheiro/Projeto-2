@@ -53,6 +53,7 @@
     /* Posicionamento */
 
     box-sizing: border-box;
+    overflow-x: hidden;
     
 }    
 
@@ -422,7 +423,7 @@
 
     width: 5%;
 
-    padding: 0% 50% 3% 47%;
+    padding: 0% 53% 3% 47%;
 
 }
 
@@ -499,4 +500,259 @@
 /* resposividade para celular */
 /* _______________________________________________________________________________________ */
 
-/*sem conteudo ainda*/
+@media (max-width: 1200px ) {
+
+    /* conteudo cabecalho da pagina */
+    /* _______________________________________________________________________________________ */
+
+
+    .cabecalho-inteiro {
+
+        /* Posicionamento */
+    
+        height: 30vh;
+    
+    }    
+
+    .cabecalho {
+
+        /* Posicionamento */
+       
+        gap: 20px;
+
+        padding: 7.5% 57.5% 0% 13.5%;
+    
+    } 
+
+    .cabecalho-titulo {
+
+        /* estilização */
+
+        font-size: 60%;
+
+    } 
+    
+    .cabecalho-botoes-link-01 {
+
+        /* estilização */
+
+        font-size: 40%;
+        width: 100%;
+    
+        /* Posicionamento */
+    
+        padding:  4%;
+        
+    }    
+    
+    .cabecalho-botoes-link-02 {
+    
+        /* estilização */
+    
+        font-size: 40%;
+        width: 100%;
+    
+        /* Posicionamento */
+    
+        padding:  4%;
+    
+    }  
+    
+    .cabecalho-botoes-texto {
+    
+        /* estilização */
+        
+        font-size: 40%;
+        
+    }
+
+    /* conteudo central da pagina */
+    /* _______________________________________________________________________________________ */
+   
+    .principal-primeira-secao {
+
+        /* Posicionamento */
+
+        flex-direction: column-reverse;
+        gap: 25px;
+
+
+    }
+
+    .principal-primeira-texto {
+
+        gap: 10px;
+
+    }
+    
+    .principal-primeira-secao-titulo {
+
+        /* estilização */
+        
+        text-align: center;
+        font-size: 1.50rem;
+    
+    }
+
+    .principal-primeira-secao-texto {
+
+        /* estilização */
+    
+        text-align: center;
+        font-size: 0.75rem;
+    
+    }
+    
+    .principal-segunda-secao {
+
+        /* Posicionamento */
+
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 25px;
+
+    }
+
+    .principal-segunda-texto {
+
+        align-items: center;
+
+    }    
+
+    .principal-segunda-secao-texto {
+
+        /* estilização */
+    
+        text-align: center;
+        font-size: 0.75rem;
+    }
+
+    .principal-segunda-texto
+
+    .principal-segunda-secao-botao {
+
+        font-size: 0.50rem;
+        width: 30%;
+    
+        /* Posicionamento */
+    
+        padding:  2.5% 1.6% 2.5% 1.6%;
+    
+    }
+    
+    .principal-terceira-secao {
+
+        /* Posicionamento */
+
+        flex-direction: column-reverse;
+        gap: 25px;
+
+    }
+
+    .principal-terceira-textos {
+
+        gap: 10px;
+    
+    }
+
+    .principal-terceira-secao-titulo {
+
+        /* estilização */
+    
+        font-size: 1.50rem;
+        text-align: center;
+    
+    
+    }
+    
+    .principal-terceira-secao-texto {
+    
+        /* estilização */
+    
+        font-size: 0.75rem;
+        text-align: center;
+    
+    }
+
+
+    /* conteudo rodape da pagina */
+    /* _______________________________________________________________________________________ */
+
+
+    .principal-final-secao-titulo {
+
+        /* estilização */
+    
+        font-size: 1rem;
+     
+    }
+
+    .principal-final-secao-divisao-titulo {
+
+        /* estilização */
+
+        font-size: 0.75rem;
+
+    }
+    
+    .rodape-logo {
+
+        /* Posicionamento */
+
+        width: 15%;
+
+        padding: 0% 70% 3% 45%;
+
+
+    }
+    
+    .rodape-menu {
+
+        /* Posicionamento */
+    
+        padding: 0% 6% 6% 6%;
+    }    
+    
+    .rodape-menu-link {
+    
+        /* estilização */
+    
+        font-size: 0.45rem;
+        gap: 20px;
+    
+    } 
+    
+    .rodape-paragrafo {
+    
+        /* Posicionamento */
+    
+        padding: 0% 16.5% 2% 16.5%;
+        gap: 20px;
+    
+    }  
+    
+    .rodape-paragrafo-texto {
+    
+        /* estilização */
+    
+        font-size: 0.6rem;
+    
+    }   
+    
+    .rodape-paragrafo-final {
+    
+        /* estilização */
+    
+        font-size: 1.20rem;
+    
+        /* Posicionamento */
+        
+        padding: 1%;
+    
+    }      
+
+}    
+
+
+
+
