@@ -43,6 +43,9 @@
     padding: 0;
     border: 0;
 
+    overflow-x: hidden;
+    overflow-y: auto;
+    object-fit: contain;
 
 }
 
@@ -67,6 +70,7 @@
     background-image: url("../Imagens/Background.png");
     background-repeat: no-repeat;
     background-size: 100%;
+    object-fit: cover;
 
     /* Posicionamento */
 
@@ -104,6 +108,7 @@
     /* Posicionamento */
 
     width: 75%;
+    object-fit: cover;
 
 }    
 
@@ -227,6 +232,7 @@
     /* Posicionamento */
 
     width: 75%;
+    object-fit: cover;
 
 }    
 
@@ -290,6 +296,7 @@
     /* Posicionamento */
 
     width: 75%;
+    object-fit: cover;
 
 }
 
@@ -347,6 +354,7 @@
     /* Posicionamento */
 
     width: 75%;
+    object-fit: cover;
 
 }
 
@@ -388,6 +396,7 @@
     /* Posicionamento */
 
     width: 100%;
+    object-fit: cover;
 
 } 
 
@@ -424,6 +433,7 @@
     width: 5%;
 
     padding: 0% 53% 3% 47%;
+    object-fit: cover;
 
 }
 
@@ -501,6 +511,14 @@
 /* _______________________________________________________________________________________ */
 
 @media (max-width: 1200px ) {
+
+    .todo-conteudo {
+
+        /* Posicionamento */
+    
+        box-sizing: border-box;
+        
+    }  
 
     /* conteudo cabecalho da pagina */
     /* _______________________________________________________________________________________ */
@@ -751,7 +769,3 @@
     }      
 
 }    
-
-
-
-
