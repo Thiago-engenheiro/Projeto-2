@@ -581,20 +581,98 @@
     
     }
 
-    .principal-final-secao-titulo {
+    .principal-final-secao-todo {
 
         /* Posicionamento */
-        font-size: 95%;
+        padding: 0% 0% 5% 0%;
+    
+    }
 
+    .principal-final-secao {
+        
+        padding: 0px 0px 0px 0px;
+    
+    }
 
+    
+    .principal-final-secao-titulo  {
+    
+        /* Posicionamento */
+        font-size: 80%;
+        padding: 0px 0px 10px 0px;
+     
+    } 
+    
+    .principal-final-secao-divisao-foto {
+    
+        /* Posicionamento */
+        width: 60%;
+    
     }
     
+    .principal-final-secao-divisao-titulo { 
     
-
+        /* Posicionamento */
+        font-size: 60%;
+        
     
-
+    }
+    
     /* conteudo rodape da pagina */
     /* _______________________________________________________________________________________ */
+
+    .rodape{ 
+
+        /* Posicionamento */
+    
+        padding: 25px 0px 0px 0px;
+    
+    }    
+    
+    .rodape-logo { 
+    
+        /* Posicionamento */
+        width: 12%;
+    
+    }
+    
+    .rodape-menu {
+    
+        padding: 50px 50px 25px 50px;
+    
+    }
+    
+    .rodape-menu-link {
+    
+        /* Posicionamento */
+        font-size: 40%;
+        
+    
+    }    
+    
+    .rodape-paragrafo {
+    
+        gap: 10px;
+    
+        /* Posicionamento */
+        padding: 5px 25px  25px 25px;
+    
+    }    
+    
+    .rodape-paragrafo-texto {
+    
+        /* Posicionamento */
+        font-size: 40%;
+    
+    } 
+    
+    .rodape-paragrafo-final {
+    
+        /* Posicionamento */
+        font-size: 70%;
+    
+    
+    } 
 
 
 
