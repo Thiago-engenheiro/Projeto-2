@@ -22,3 +22,13 @@
 * Site simples com informações sobre um plano fictício do Alura
 
   ![image](https://raw.githubusercontent.com/Thiago-engenheiro/Projeto-2/main/foto%20do%20site.png?token=GHSAT0AAAAAACNIESIFHJPXLCPSZWJ56G66ZNQAKXA)
+
+## 🚧 observações:
+
+* A resposividade anda não esta boa (principalmente em despostivos apple)
+
+## link do site:
+
+https://projeto-2-flame.vercel.app/HTML/pagina.html
+
+
