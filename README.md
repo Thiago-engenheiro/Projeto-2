@@ -25,7 +25,7 @@
 
 ## 🚧 observações:
 
-* A resposividade anda não esta boa (principalmente em despostivos apple)
+* A resposividade anda não esta boa (principalmente em dispositivos apple)
 
 ## link do site:
 
